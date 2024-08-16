@@ -8,3 +8,16 @@ for (var i = 0; i < array.length; i++) {
 }
 
 console.log(`Outside the Block Scope: ${i}`);
+
+
+
+// let can be modified
+// it is accessible inside the block only
+array  = [1,2,3,4,5];
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    console.log(element);
+}
+console.log(i);
+
+
