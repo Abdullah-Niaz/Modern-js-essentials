@@ -21,3 +21,10 @@ for (let i = 0; i < array.length; i++) {
 console.log(i);
 
 
+// const value can not be modified 
+// accessible inside block only
+for(const i = 0 ; i < 10; i++){
+    console.log(i);
+}
+console.log(i);
+
